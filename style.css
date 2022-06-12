@@ -1,0 +1,41 @@
+body {
+    background-image: url("dolphin.jpg");
+    background-size: cover;
+    font-family: 'Lobster', cursive;
+    text-shadow: 0 0 1px black;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+h2,
+p {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+button {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    padding: 1.5em;
+    color: #008080;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 10px 25px;
+}
+
+button:active {
+    background-color: #d3c4d1
+}
